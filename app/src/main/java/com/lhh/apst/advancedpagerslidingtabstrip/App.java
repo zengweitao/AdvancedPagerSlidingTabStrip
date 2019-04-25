@@ -18,6 +18,6 @@ public class App extends Application{
                 .newBuilder(this, new OkHttpClient())
                 .build();
         Fresco.initialize(this,frescoConfig);
-        System.out.println("");
+        System.out.println("打印");
     }
 }
